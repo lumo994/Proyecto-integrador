@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+/* globales */
+
+h2 {
+    font-size: 18px;
+
+}
+
+header {
+    min-height: 250px;
+    background-color: rgb(216, 150, 150);
+    background: rgb(215, 143, 183);
+    background: linear-gradient(90deg, rgba(215, 143, 183, 1) 0%, rgba(201, 185, 241, 1) 100%);
+}
+
+header div {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+header div a img {
+    width: 56px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+header div a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a {
+    padding: 12px;
+}
+
+header h1 {
+
+    width: 1100px;
+    margin: 53px auto 0px auto;
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+/* ### hero banner ### */
+
+#hero {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 600px;
+    align-items: center;
+
+}
+
+#hero article {
+    width: 630px;
+}
+
+#hero article p {
+    color: #fff;
+    margin: 26px 0px;
+}
+
+#hero div {
+    width: 630px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero div a {
+    padding: 8px 56px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+
+}
+
+#hero div a:hover {
+    background-color: #fff;
+    color: rgb(216, 150, 150);
+    transition: 0.3s;
+}
+
+#hero img {
+    margin: auto;
+}
+
+
+
+/* ### main ### */
+
+main {
+    width: 1100px;
+    margin: auto;
+    min-height: 445px;
+}
+
+
+/* ###   index   ### */
+
+#contenido-index {
+    height: 500px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#contenido-index article {
+    width: 280px;
+    text-align: center;
+
+}
+
+#contenido-index article img {
+    width: 72px;
+    /* border: 1px solid #707070;*/
+    /* border-radius: 100%;*/
+}
+
+#contenido-index article h2 {
+    margin: 28px 0px;
+}
+
+
+
+/* ### Features ### */
+
+#nuestra-app {
+    display: flex;
+    justify-content: space-between;
+    height: 465px;
+    width: 1100px;
+    align-items: center;
+}
+
+#nuestra-app article {
+    width: 580px;
+
+}
+
+#nuestra-app article p {
+    margin: 16px 0px;
+}
+
+
+#features {
+    width: 1100px;
+    height: 444px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#features article {
+    width: 326px;
+}
+
+#features article h3 {
+    margin-bottom: 16px;
+
+}
+
+#features article h3 img {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+
+/* ### comprar ### */
+
+#comprar {
+    width: 1100px;
+    height: 548px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comprar article {
+    width: 326px;
+    padding: 32px 0px 48px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 8px;
+
+
+}
+
+#comprar article div {
+    background-color: #f8f8f8;
+    margin: 22px 0px 20px 0px;
+    padding: 4px 0px;
+}
+
+#comprar span {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+#comprar article ul {
+    list-style: none;
+    margin-bottom: 28px;
+
+}
+
+#comprar li {
+    line-height: 24px;
+}
+
+#comprar a {
+    border: 1px solid #707070;
+    text-decoration: none;
+    color: #707070;
+    padding: 8px 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+
+#comprar a:hover {
+    color: white;
+    background-color: #707070;
+
+}
+
+#personal div,
+#personal a {
+    background: rgb(215, 143, 183);
+    background: linear-gradient(90deg, rgba(215, 143, 183, 1) 0%, rgba(201, 185, 241, 1) 100%);
+    color: #fff;
+
+}
+
+#personal a:hover {
+    background: linear-gradient(0deg, rgba(215, 143, 183, 1) 0%, rgba(201, 185, 241, 1) 100%);
+
+}
+
+
+/* Contacto */
+
+#main-contacto {
+    width: 100%;
+    height: 640px;
+    padding-top: 60px;
+    background-image: url(../bg-contacto.jpg);
+    background-size: cover;
+
+}
+
+#main-contacto form {
+    width: 1000px;
+    padding: 62px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-contacto section {
+    width: 550px;
+}
+
+#main-contacto input,
+#main-contacto textarea {
+    width: 100%;
+    background-color: #f4f4f4;
+    margin-bottom: 32px;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-family: Raleway, sans-serif;
+
+}
+
+#main-contacto input:focus,
+#main-contacto textarea:focus {
+    outline: none;
+    border: 2px solid rgb(215, 143, 183);
+
+}
+
+
+#main-contacto textarea {
+    height: 152px;
+    resize: none;
+}
+
+#main-contacto button {
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+#main-contacto button:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+#main-contacto div {
+    width: 250px;
+    height: 310px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 24px;
+}
+
+
+#main-contacto div img {
+    width: 72px;
+
+}
+
+/* footer */
+
+footer {
+
+    background-color: #262626;
+
+}
+
+footer div {
+    height: 150px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div a img {
+    width: 56px;
+    vertical-align: middle;
+    margin-right: 8px;
+
+}
+
+footer div nav a img {
+    width: 20px;
+    margin: 8px;
+
+}
+
+
+
+
+/* Nosotros */
+
+
+#nosotros {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#nosotros img {
+    width: 245px;
+    height: 310px;
+
+}
